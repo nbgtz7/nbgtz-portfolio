@@ -9,6 +9,7 @@ return (
 <NavLink to="/" className="font-bold tracking-tight">NBGTZ • Portfolio</NavLink>
 <div className="flex gap-6 text-sm">
 <NavLink to="/" className={({isActive})=>`hover:opacity-80 ${isActive?'opacity-100':'opacity-80'}`}>Albums</NavLink>
+<NavLink to="/about" className={({isActive})=>`hover:opacity-80 ${isActive?'opacity-100':'opacity-80'}`}>About Me</NavLink>
 <NavLink to="/contact" className={({isActive})=>`hover:opacity-80 ${isActive?'opacity-100':'opacity-80'}`}>Contact</NavLink>
 </div>
 </div>
